@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__container {
+  display: flex;
+  place-items: center;
+  gap: 10px;
+}
+
+.header__title {
+  margin: 0;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+}
+
+.header__title_company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.header__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.header__item {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-weight: 600;
+}
+
+.header__item_number {
+  padding-left: 3rem;
+  font-size: 2rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .header__item:hover {
+    color: #fff;
+  }
+}
