@@ -1,0 +1,60 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+  gap: 3rem;
+}
+
+.landidng__title {
+  margin: 0;
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  font-weight: 800;
+}
+
+.landidng__heading {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.landidng__subheading {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.landing__buttons {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.landing__button {
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+  color: #002107;
+  background-color: #a4f5a9;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 0px #00000024, 0px 2px 2px 0px #0000001f, 0px 1px 3px 0px #00000033;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.landing__button:hover {
+  color: #a4f5a9;
+  background-color: rgba(164, 245, 169, 0.2);
+}
+
+.landing__button_more {
+  color: #a4f5a9;
+  background-color: rgba(164, 245, 169, 0.2);
+  border: 1px solid #a4f5a9;
+}
+
+.landing__button_more:hover {
+  /* color: #002107; */
+  background-color: rgba(164, 245, 169, 0.5);
+}
