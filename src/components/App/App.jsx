@@ -1,5 +1,6 @@
 import AboutUs from '../AboutUs/AboutUs';
 import Header from '../Header/Header';
+import MobileMenu from '../MobileMenu/MobileMenu';
 import './App.css';
 import Landing from './Landing/Landing';
 
@@ -11,6 +12,7 @@ function App() {
         <Landing />
       </div>
       <AboutUs />
+      <MobileMenu />
     </div>
   );
 }

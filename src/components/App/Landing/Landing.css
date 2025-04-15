@@ -6,19 +6,19 @@
   gap: 3rem;
 }
 
-.landidng__title {
+.landing__title {
   margin: 0;
   font-size: 4.5rem;
   line-height: 5.5rem;
   font-weight: 800;
 }
 
-.landidng__heading {
+.landing__heading {
   margin: 0;
   font-size: 2.5rem;
 }
 
-.landidng__subheading {
+.landing__subheading {
   margin: 0;
   font-size: 2rem;
 }
@@ -61,16 +61,57 @@
 }
 
 @media screen and (max-width: 1700px) {
-  .landidng__title {
+  .landing__title {
     font-size: 3.5rem;
     line-height: 4.5rem;
   }
 
-  .landidng__heading {
+  .landing__heading {
     font-size: 2rem;
   }
 
-  .landidng__subheading {
+  .landing__subheading {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .landing__title {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+  }
+
+  .landing__heading {
+    font-size: 1.8rem;
+  }
+
+  .landing__subheading {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .landing__title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .landing__heading {
+    font-size: 1.3rem;
+  }
+
+  .landing__subheading {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing__title {
+    font-size: 1.8rem;
+  }
+  .landing__buttons {
+    gap: 1rem;
+  }
+  .landing__button {
+    padding: 0.5rem 1rem;
   }
 }

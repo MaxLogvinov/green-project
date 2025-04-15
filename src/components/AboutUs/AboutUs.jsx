@@ -4,9 +4,9 @@ function AboutUs() {
   return (
     <section className="about-us" id="about-us">
       <div className="about-us__container">
-        <p class="about-us__name">
+        <p className="about-us__name">
           //
-          <strong class="about-us__name-text">О НАС</strong>
+          <strong className="about-us__name-text">О НАС</strong>
         </p>
         <h2 className="about-us__title">Почему мы?</h2>
       </div>
@@ -35,8 +35,8 @@ function AboutUs() {
                 <strong className="about-us__orders_number">&#8250;1000&nbsp;</strong>м&#178;
               </span>
               <span className="about-us__orders">
-                озеленили жилых и общественных
-                <br /> интерьеров
+                озеленили жилых и <br />
+                общественных интерьеров
               </span>
             </div>
           </li>
