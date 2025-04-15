@@ -17,7 +17,7 @@ function MobileMenu() {
         <button onClick={handleOnClick} className="mobile-menu__close-button"></button>
       </div>
       <nav className="mobile-menu__navigation">
-        <HeaderList />
+        <HeaderList handleOnClick={handleOnClick} />
       </nav>
     </aside>
   );

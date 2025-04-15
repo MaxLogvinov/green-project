@@ -1,25 +1,25 @@
 import './Header.css';
 
-function HeaderList() {
+function HeaderList({ handleOnClick }) {
   return (
     <ul className="header__list">
       <li>
-        <a className="header__item" href="#about-us">
+        <a className="header__item" href="#about-us" onClick={handleOnClick}>
           О нас
         </a>
       </li>
       <li>
-        <a className="header__item" href="">
+        <a className="header__item" href="" onClick={handleOnClick}>
           Услуги
         </a>
       </li>
       <li>
-        <a className="header__item" href="">
+        <a className="header__item" href="" onClick={handleOnClick}>
           Виды озеленения
         </a>
       </li>
       <li>
-        <a className="header__item" href="">
+        <a className="header__item" href="" onClick={handleOnClick}>
           Портфолио
         </a>
       </li>

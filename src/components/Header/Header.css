@@ -72,7 +72,7 @@
   }
   .header__burger {
     display: block;
-    background: url(sandwich.svg);
+    background: url(/sandwich.svg);
     width: 32px;
     height: 28px;
     cursor: pointer;
