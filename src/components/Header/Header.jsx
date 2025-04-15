@@ -12,6 +12,11 @@ function Header() {
       <nav>
         <ul className="header__list">
           <li>
+            <a className="header__item" href="#about-us">
+              О нас
+            </a>
+          </li>
+          <li>
             <a className="header__item" href="">
               Услуги
             </a>
@@ -19,11 +24,6 @@ function Header() {
           <li>
             <a className="header__item" href="">
               Виды озеленения
-            </a>
-          </li>
-          <li>
-            <a className="header__item" href="">
-              О нас
             </a>
           </li>
           <li>

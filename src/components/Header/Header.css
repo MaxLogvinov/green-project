@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  max-width: 1920px;
 }
 
 .header__container {
@@ -15,8 +16,8 @@
   margin: 0;
   font-style: italic;
   font-weight: 600;
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   text-transform: uppercase;
 }
 
@@ -33,24 +34,24 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 30px;
 }
 
 .header__item {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.87);
-  font-size: 1.2rem;
-  line-height: 1.7rem;
+  color: var(--opacity-white);
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 600;
 }
 
 .header__item_number {
-  padding-left: 3rem;
-  font-size: 2rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .header__item:hover {
-    color: #fff;
+    color: var(--white);
   }
 }

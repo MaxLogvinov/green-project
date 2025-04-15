@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 5rem;
+  padding-bottom: 5rem;
   gap: 3rem;
 }
 
@@ -30,8 +31,8 @@
 .landing__button {
   font-family: 'Rubik', sans-serif;
   padding: 0;
-  color: #002107;
-  background-color: #a4f5a9;
+  color: var(--black);
+  background-color: var(--bright-green);
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -43,18 +44,33 @@
   transition: all 0.5s;
 }
 
-.landing__button:hover {
-  color: #a4f5a9;
-  background-color: rgba(164, 245, 169, 0.2);
-}
-
 .landing__button_more {
-  color: #a4f5a9;
-  background-color: rgba(164, 245, 169, 0.2);
-  border: 1px solid #a4f5a9;
+  color: var(--bright-green);
+  background-color: var(--bright-green-opacity2);
+  border: 1px solid var(--bright-green);
 }
 
-.landing__button_more:hover {
-  /* color: #002107; */
-  background-color: rgba(164, 245, 169, 0.5);
+@media (hover: hover) and (pointer: fine) {
+  .landing__button:hover {
+    color: var(--bright-green);
+    background-color: var(--bright-green-opacity2);
+  }
+  .landing__button_more:hover {
+    background-color: var(--bright-green-opacity5);
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .landidng__title {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+
+  .landidng__heading {
+    font-size: 2rem;
+  }
+
+  .landidng__subheading {
+    font-size: 1.5rem;
+  }
 }

@@ -2,7 +2,7 @@ import './Landing.css';
 
 function Landing() {
   return (
-    <div className="landing">
+    <section className="landing">
       <h1 className="landidng__title">
         Создадим атмосферу <br /> уюта и комфорта <br /> в ваших пространствах
       </h1>
@@ -12,7 +12,7 @@ function Landing() {
         <button className="landing__button">Оставить заявку</button>
         <button className="landing__button landing__button_more">Узнать больше</button>
       </div>
-    </div>
+    </section>
   );
 }
 
